@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class GameControllerScript : MonoBehaviour
 {
    
-    public const int columns = 4;
-    public const int rows = 2;
+    public int columns = 4;
+    public int rows = 2;
 
-    public const float Xspace = 4f;
-    public const float Yspace = -5f;
+    public float Xspace = 4f;
+    public float Yspace = -5f;
 
     [SerializeField] private MainImageScript startObject;
     [SerializeField] private Sprite[] images;
